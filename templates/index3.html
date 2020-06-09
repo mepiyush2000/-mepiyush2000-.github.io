@@ -1,0 +1,15 @@
+<HTML>
+<HEAD>
+	<TITLE>Home Page</TITLE>
+</HEAD>
+<BODY BGCOLOR="lightblue">
+	<h1>Hello World</h1>
+	!! Welcome to the Homepage
+	{% for x in range(10) %}
+		{% if x % 2==0 %}
+			<p>{{x}}</p>
+		{% endif %}
+	{% endfor %}
+		
+</BODY>
+</HTML>
